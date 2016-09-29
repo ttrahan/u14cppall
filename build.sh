@@ -5,7 +5,7 @@ export IMAGE_NAME=drydock/u14cppall
 export RES_DOCKER_CREDS=docker-creds
 export RES_REPO=u14cppall-repo
 export RES_IMAGE=u14cppall-img
-export UP_IMAGE=u14-img
+export UP_IMAGE=u14all-img
 
 findUpstreamBaseVersion() {
   echo "Find Latest Version for" $UP_IMAGE
