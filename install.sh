@@ -16,11 +16,11 @@ sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-5 20
 gcc --version
 echo "================== Successfully Installed gcc 5 ==============="
 
-echo "==================== Installing clang 3.8.0 ==================="
-sudo wget http://llvm.org/releases/3.8.0/clang+llvm-3.8.0-x86_64-linux-gnu-ubuntu-14.04.tar.xz
-tar xf clang+llvm-3.8.0-x86_64-linux-gnu-ubuntu-14.04.tar.xz
-cd clang+llvm-3.8.0-x86_64-linux-gnu-ubuntu-14.04
+echo "==================== Installing clang 3.9.0 ==================="
+sudo wget http://llvm.org/releases/3.9.0/clang+llvm-3.9.0-x86_64-linux-gnu-ubuntu-14.04.tar.xz
+tar xf clang+llvm-3.9.0-x86_64-linux-gnu-ubuntu-14.04.tar.xz
+cd clang+llvm-3.9.0-x86_64-linux-gnu-ubuntu-14.04
 sudo cp -R * /usr/local/
 cd ../
 clang --version
-echo "=============== Successfully Installed clang 3.8.0 ============"
+echo "=============== Successfully Installed clang 3.9.0 ============"
